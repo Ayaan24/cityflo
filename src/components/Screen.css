@@ -5,7 +5,7 @@
 }
 
 .flexi-pass-new {
-  width: 500px;
+  width: 360px;
   min-height: 2102px;
   background: #001726;
   overflow-y: auto;
@@ -55,7 +55,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 400px;
+  width: 288px;
   height: 295px;
   opacity: 0.9;
 }
@@ -70,7 +70,7 @@
   width: 85.6452px;
   height: 85.6452px;
   background: #7214FF;
-  left: 68px;
+  left: 49px;
   top: 355px;
 }
 
@@ -78,7 +78,7 @@
   width: 85.6452px;
   height: 85.6452px;
   background: #FFC933;
-  left: 297px;
+  left: 214px;
   top: 62px;
 }
 
@@ -87,7 +87,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 440px;
+  width: 317px;
   height:1000px;
   background: linear-gradient(0deg, #001726 13.91%, rgba(0, 23, 38, 0.00) 100%);
   pointer-events: none;
@@ -96,7 +96,7 @@
 /* Back Button */
 .back-btn {
   position: absolute;
-  left: 21px;
+  left: 16px;
   top: 56px;
   width: 24px;
   height: 24px;
@@ -153,7 +153,7 @@
   transform: translateX(-50%);
   top: 217px;
   display: flex;
-  gap: 12px;
+  gap: 8px;
 }
 
 .feature-item {
@@ -234,7 +234,8 @@
   background: linear-gradient(0deg, rgba(255, 184, 0, 0.17) -17.02%, rgba(0, 37, 63, 0.00) 100%);
   backdrop-filter: blur(6px);
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   top: 0;
   z-index: 0;
 }
@@ -244,7 +245,7 @@
   z-index: 1;
   width: 284px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 130%;
   letter-spacing: -0.036px;
@@ -260,7 +261,7 @@
   left: 50%;
   transform: translateX(-50%);
   top: 507px;
-  width: 296px;
+  width: 324px;
   padding-bottom: 40px;
   display: flex;
   padding-top: 20px;
@@ -296,6 +297,7 @@
   backdrop-filter: blur(6px);
   display: flex;
   padding: 4px;
+  max-width: 100%;
 }
 
 .trip-tab {
@@ -331,15 +333,15 @@
 
 /* Plans Container */
 .plans-container {
-  width: 328px;
+  width: 324px;
   position: relative;
-  margin-left: -16px;
+  margin-left: 0;
   margin-bottom: 16px;
 }
 
 /* Plan Strip */
 .plan-strip {
-  width: 334px;
+  width: 324px;
   height: 29px;
   position: relative;
   display: flex;
@@ -349,7 +351,7 @@
 }
 
 .strip-bg {
-  width: 334px;
+  width: 324px;
   height: 23px;
   border-radius: 4px 4px 0 0;
   background: #FFE296;
@@ -536,7 +538,7 @@
 
 /* Plan Divider */
 .plan-divider {
-  width: 320px;
+  width: 316px;
   height: 6px;
   background: #001726;
   margin: 0 4px;
@@ -548,9 +550,9 @@
 .plans-container::before {
   content: '';
   position: absolute;
-  left: 3px;
+  left: 0;
   top: 25px;
-  width: 328px;
+  width: 324px;
   height: 496px;
   border-radius: 12px;
   border: 1px solid #FFD66B;
@@ -584,7 +586,7 @@
 /* Proceed Button */
 .proceed-btn {
   display: flex;
-  width: 328px;
+  width: 324px;
   height: 44px;
   padding: 11px 24px 11px 32px;
   justify-content: center;
@@ -602,8 +604,8 @@
   line-height: 130%;
   letter-spacing: -0.032px;
   cursor: pointer;
-  margin: 40px auto;
- position: relative;
+  margin: 40px auto 0;
+  position: relative;
   z-index: 10;
 }
 
@@ -668,7 +670,8 @@
 }
 
 .benefit-divider {
-  width: 284px;
+  width: 100%;
+  max-width: 284px;
   height: 1px;
   background: linear-gradient(90deg, rgba(43, 74, 96, 0.00) 0.17%, rgba(43, 74, 96, 0.70) 29.44%, rgba(43, 74, 96, 0.70) 70.21%, rgba(43, 74, 96, 0.00) 100.53%);
 }
@@ -756,7 +759,7 @@
 
 /* FAQ Section */
 .faq-section {
-  width: 360px;
+  width: 324px;
   height: 295px;
   position: absolute;
   left: 50%;
@@ -765,7 +768,7 @@
 }
 
 .faq-header {
-  width: 360px;
+  width: 324px;
   height: 42px;
   border-radius: 12px 12px 0 0;
   background: #FFF;
@@ -786,7 +789,7 @@
 }
 
 .faq-questions {
-  width: 360px;
+  width: 324px;
   padding: 20px 16px 16px 16px;
   background: #FFF;
   box-shadow: 0 -1px 4px 0 rgba(0, 37, 63, 0.06);
@@ -838,7 +841,7 @@
 }
 
 .faq-blur-overlay {
-  width: 360px;
+  width: 324px;
   height: 105px;
   background: linear-gradient(359deg, #FFF 39.37%, rgba(255, 255, 255, 0.00) 161.01%);
   position: absolute;
@@ -881,6 +884,104 @@
 /* Responsive Design */
 @media (max-width: 360px) {
   .flexi-pass-new {
+    width: 100%;
+  }
+  
+  .bg-image {
+    width: 100%;
+  }
+  
+  .features-grid {
+    width: calc(100% - 36px);
+    gap: 8px;
+  }
+  
+  .feature-item {
+    width: calc((100% - 16px) / 3);
+    min-width: 0;
+  }
+  
+  .feature-bg {
+    width: 100%;
+  }
+  
+  .feature-text {
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .refund-message-container {
+    width: calc(100% - 36px);
+  }
+  
+  .refund-message-bg {
+    width: 100%;
+  }
+  
+  .select-plan-section {
+    width: calc(100% - 64px);
+  }
+  
+  .trip-tabs {
+    width: 100%;
+    max-width: 278px;
+  }
+  
+  .plans-container {
+    width: 100%;
+    max-width: 324px;
+  }
+  
+  .plan-strip {
+    width: 100%;
+  }
+  
+  .strip-bg {
+    width: 100%;
+  }
+  
+  .plan-divider {
+    width: calc(100% - 8px);
+  }
+  
+  .plans-container::before {
+    width: 100%;
+  }
+  
+  .proceed-btn {
+    width: 100%;
+    max-width: 324px;
+  }
+  
+  .how-it-works-section {
+    width: calc(100% - 64px);
+  }
+  
+  .benefits-list {
+    width: 100%;
+  }
+  
+  .did-you-know-section {
+    width: calc(100% - 64px);
+  }
+  
+  .did-you-know-text {
+    width: 100%;
+  }
+  
+  .faq-section {
+    width: calc(100% - 36px);
+  }
+  
+  .faq-header {
+    width: 100%;
+  }
+  
+  .faq-questions {
+    width: 100%;
+  }
+  
+  .faq-blur-overlay {
     width: 100%;
   }
 }
