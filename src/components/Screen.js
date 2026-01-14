@@ -48,7 +48,7 @@ const Screen = () => {
             </defs>
           </svg>
         </div>
-        <img src="./Pass.png" alt="Pass Logo" className="pass-logo" />
+        <img src="https://api.builder.io/api/v1/image/assets/TEMP/d3e9d9e892d19fbc822d019fea9b7b0f698ddf6e?width=323" alt="Pass Logo" className="pass-logo" />
       </div>
 
       {/* Features Section */}
@@ -56,15 +56,7 @@ const Screen = () => {
         <div className="feature-item">
           <div className="feature-bg"></div>
           <div className="feature-icon savings-icon">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M24.54 4.20117C24.8978 4.02478 25.336 4.16379 25.5283 4.5293L27.2656 7.83105C27.6367 8.5359 28.2921 9.04609 29.0635 9.22949L29.2197 9.26172L32.8701 9.9082C33.2622 9.97751 33.5428 10.3532 33.4844 10.7705L32.9658 14.4717V14.4727C32.8483 15.3134 33.1199 16.1643 33.709 16.7783L36.2861 19.4648C36.5712 19.7624 36.5712 20.2376 36.2861 20.5352L33.709 23.2217V23.2227C33.1211 23.8361 32.8482 24.6862 32.9658 25.5273V25.5283L33.4844 29.2295C33.5428 29.6463 33.2627 30.022 32.8701 30.0918L29.2197 30.7383C28.3822 30.8866 27.6615 31.4157 27.2656 32.1689L25.5283 35.4707C25.3361 35.8361 24.8986 35.9745 24.54 35.7979H24.5391L21.2109 34.1572C20.4948 33.8039 19.6641 33.7816 18.9336 34.0908L18.7891 34.1572L15.46 35.7988C15.1022 35.9752 14.664 35.8362 14.4717 35.4707L12.7344 32.1689C12.3633 31.4641 11.7079 30.9539 10.9365 30.7705L10.7803 30.7383L7.12988 30.0918C6.73777 30.0225 6.45718 29.6468 6.51562 29.2295L7.03418 25.5283V25.5273C7.15171 24.6866 6.88009 23.8357 6.29102 23.2217L3.71387 20.5352C3.42876 20.2376 3.42876 19.7624 3.71387 19.4648L6.29102 16.7783V16.7773C6.87893 16.1639 7.15177 15.3138 7.03418 14.4727V14.4717L6.51562 10.7705C6.45724 10.3537 6.7373 9.97798 7.12988 9.9082L10.7803 9.26172C11.6181 9.11334 12.3395 8.58379 12.7354 7.83008L12.7344 7.8291L14.4717 4.5293C14.6639 4.1639 15.1014 4.02454 15.46 4.20117L18.7891 5.84277V5.84375C19.5526 6.2199 20.4464 6.2195 21.21 5.84375L21.2109 5.84277L24.54 4.20117Z" fill="url(#paint0_linear_savings)" stroke="#B38100" strokeWidth="2"/>
-              <defs>
-                <linearGradient id="paint0_linear_savings" x1="10.5" y1="5" x2="33" y2="37" gradientUnits="userSpaceOnUse">
-                  <stop stopColor="#D19702"/>
-                  <stop offset="1" stopColor="#9F7400"/>
-                </linearGradient>
-              </defs>
-            </svg>
+            <img src={`${process.env.PUBLIC_URL || ''}/Offer.png`} alt="Savings" width="40" height="40" />
           </div>
           <div className="feature-text">
             <span className="text-white">Savings up to</span>{' '}
@@ -148,14 +140,7 @@ const Screen = () => {
           <span className="text-white">Get a </span>
           <span className="text-yellow">full refund</span>
           <span className="text-white"> when you</span><br/>
-          <span 
-            className="text-yellow underline" 
-            style={{
-              '--handdrawn-bg': `url('${process.env.PUBLIC_URL || ''}/Handdrawn.png')`
-            }}
-          >
-            cancel a ride
-          </span>
+          <span className="text-yellow underline">cancel a ride</span>
         </div>
       </div>
 
