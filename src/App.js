@@ -1,11 +1,11 @@
 import React from 'react';
-import FlexiPass from './FlexiPass';
+import Screen from './components/Screen';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <FlexiPass />
+      <Screen />
     </div>
   );
 }
