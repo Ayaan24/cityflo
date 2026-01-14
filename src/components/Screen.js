@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaChevronLeft, FaChevronDown, FaLightbulb } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronDown } from 'react-icons/fa';
 import './Screen.css';
 
 const Screen = () => {
