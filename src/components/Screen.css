@@ -325,7 +325,7 @@
 
 /* Plans Container */
 .plans-container {
-  width: 324px;
+  width: 320px;
   position: relative;
   margin-left: 0;
   margin-bottom: 16px;
@@ -343,13 +343,13 @@
 }
 
 .strip-bg {
-  width: 324px;
+  width: 326px;
   height: 23px;
   border-radius: 4px 4px 0 0;
   background: #FFE296;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -3px;
 }
 
 .strip-fold {
@@ -401,6 +401,12 @@
   background: #FFF8E6;
   border: 1px solid #FFB800;
   margin: -1px;
+}
+
+.plan-card.selected:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: 165px;
 }
 
 .plan-card:first-of-type {
@@ -535,6 +541,8 @@
   background: #001726;
   margin: 0 4px;
   position: relative;
+  left: -2px;
+  top: 6px;
   z-index: 2;
 }
 
@@ -544,7 +552,7 @@
   position: absolute;
   left: 0px;
   top: -20px;
-  width: 318px;
+    width: 318px;
   height: 520px;
   border-radius: 12px;
   border: 1px solid #FFD66B;
