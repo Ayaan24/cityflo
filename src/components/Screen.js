@@ -48,7 +48,7 @@ const Screen = () => {
             </defs>
           </svg>
         </div>
-        <img src="https://api.builder.io/api/v1/image/assets/TEMP/d3e9d9e892d19fbc822d019fea9b7b0f698ddf6e?width=323" alt="Pass Logo" className="pass-logo" />
+        <img src="./Pass.png" alt="Pass Logo" className="pass-logo" />
       </div>
 
       {/* Features Section */}
@@ -148,7 +148,14 @@ const Screen = () => {
           <span className="text-white">Get a </span>
           <span className="text-yellow">full refund</span>
           <span className="text-white"> when you</span><br/>
-          <span className="text-yellow underline">cancel a ride</span>
+          <span 
+            className="text-yellow underline" 
+            style={{
+              '--handdrawn-bg': `url('${process.env.PUBLIC_URL || ''}/Handdrawn.png')`
+            }}
+          >
+            cancel a ride
+          </span>
         </div>
       </div>
 
