@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaChevronLeft, FaChevronDown } from 'react-icons/fa';
+import PlanStrip from './PlanStrip';
 import './Screen.css';
 
 const Screen = () => {
@@ -192,12 +193,9 @@ const Screen = () => {
         {/* Plans Container */}
         <div className="plans-container">
           {/* Flexi Plan Strip */}
-          <div className="plan-strip">
-            <div className="strip-bg"></div>
-            <div className="strip-fold left"></div>
-            <div className="strip-fold right"></div>
-            <span className="strip-text">Flexi Plan - Maximum flexibility</span>
-          </div>
+          <PlanStrip 
+            title="Flexi Plan - Maximum flexibility" 
+          />
 
           {/* Flexi Plan 40 Rides - Selected */}
           <div className={`plan-card ${selectedPlan === 'flexi40' ? 'selected' : ''}`} onClick={() => setSelectedPlan('flexi40')}>
@@ -265,12 +263,9 @@ const Screen = () => {
           <div className="plan-divider"></div>
 
           {/* Super Saver Plan Strip */}
-          <div className="plan-strip">
-            <div className="strip-bg"></div>
-            <div className="strip-fold left"></div>
-            <div className="strip-fold right"></div>
-            <span className="strip-text">Super Saver Plan - Maximum savings</span>
-          </div>
+          <PlanStrip 
+            title="Super Saver Plan - Maximum savings" 
+          />
 
           {/* Super Saver Plan 40 Rides */}
           <div className={`plan-card ${selectedPlan === 'saver40' ? 'selected' : ''}`} onClick={() => setSelectedPlan('saver40')}>

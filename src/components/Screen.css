@@ -388,6 +388,75 @@
   white-space: nowrap;
 }
 
+/* New Plan Strip Component Styles */
+.plan-strip-wrapper {
+  width: 324px;
+  height: 29px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  flex-wrap: wrap;
+  margin-bottom: -6px;
+  z-index: 2;
+}
+
+.plan-strip-bg {
+  width: 326px;
+  height: 23px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+  background: #FFE296;
+  border-radius: 4px 4px 0 0;
+}
+
+.plan-strip-fold-wrapper {
+  width: 3px;
+  height: 6px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+
+.plan-strip-fold-wrapper:nth-child(2) {
+  left: 0;
+}
+
+.plan-strip-fold-wrapper:nth-child(3) {
+  right: 0;
+}
+
+.plan-strip-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3px;
+  color: #00253F;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  z-index: 4;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .plan-strip-wrapper {
+    width: 100%;
+    max-width: 334px;
+  }
+}
+
+@media (max-width: 640px) {
+  .plan-strip-wrapper {
+    width: 100%;
+    max-width: 334px;
+    left: 0;
+  }
+}
+
 /* Plan Card */
 .plan-card {
   background: #FBFBFB;
