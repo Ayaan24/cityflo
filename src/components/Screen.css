@@ -214,18 +214,44 @@
   height: 12px;
 }
 
-/* Refund Message */
-.refund-message {
+/* Refund Message Container */
+.refund-message-container {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 381px;
+  width: 324px;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.refund-message-bg {
+  width: 324px;
+  height: 108px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(255, 184, 0, 0.17) -17.02%, rgba(0, 37, 63, 0.00) 100%);
+  backdrop-filter: blur(6px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.refund-message {
+  position: relative;
+  z-index: 1;
   width: 284px;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
   line-height: 130%;
   letter-spacing: -0.036px;
+}
+
+.refund-message .underline {
+  text-decoration: underline;
 }
 
 /* Select Plan Section */
