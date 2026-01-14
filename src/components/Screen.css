@@ -229,6 +229,9 @@
   top: 507px;
   width: 296px;
   padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-title-wrapper {
@@ -519,6 +522,28 @@
   z-index: 0;
 }
 
+/* Free Rescheduling Badge */
+.free-rescheduling-badge {
+  display: inline-flex;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #E6F0EC;
+  margin: 0 auto 12px;
+  position: relative;
+  z-index: 10;
+  width: fit-content;
+}
+
+.free-rescheduling-badge span {
+  color: #2B8064;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.028px;
+}
+
 /* Proceed Button */
 .proceed-btn {
   display: flex;
@@ -529,7 +554,7 @@
   align-items: center;
   gap: 4px;
   border-radius: 24px;
-  background: linear-gradient(0deg, #D5AB41 0%, #E8C97A 100%);
+  background: #FFD66B;
   box-shadow: 0 2px 4px 0 rgba(0, 37, 63, 0.08), 0 0 1px 0 rgba(0, 37, 63, 0.32);
   border: none;
   color: #00253F;
@@ -540,7 +565,7 @@
   line-height: 130%;
   letter-spacing: -0.032px;
   cursor: pointer;
-  margin: 12px 0 0 3px;
+  margin: 0 auto;
   position: relative;
   z-index: 10;
 }
@@ -597,6 +622,11 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
+}
+
+.benefit-text .text-yellow {
+  color: #FFD66B;
+  font-weight: 600;
 }
 
 .benefit-divider {
