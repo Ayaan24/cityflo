@@ -449,6 +449,7 @@ const Screen = () => {
               <span>Does this pass include weekends or holidays?</span>
               <FaChevronDown className="chevron-icon" />
             </div>
+            <div className="faq-divider"></div>
           </div>
         </div>
 
