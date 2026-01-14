@@ -5,13 +5,14 @@
 }
 
 .flexi-pass-new {
-  width: 360px;
+  width: 500px;
   min-height: 2102px;
   background: #001726;
   overflow-y: auto;
   position: relative;
   font-family: 'Figtree', -apple-system, Roboto, Helvetica, sans-serif;
   padding-bottom: 80px;
+  margin: 0 auto;
 }
 
 /* Status Bar */
@@ -84,8 +85,9 @@
 .gradient-overlay {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 360px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 440px;
   height: 292px;
   background: linear-gradient(0deg, #001726 13.91%, rgba(0, 23, 38, 0.00) 100%);
   pointer-events: none;
@@ -114,7 +116,8 @@
   width: 196px;
   height: 79px;
   position: absolute;
-  left: 82px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 90px;
   display: flex;
   flex-direction: column;
@@ -146,7 +149,8 @@
   width: 324px;
   height: 120px;
   position: absolute;
-  left: 18px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 217px;
   display: flex;
   gap: 12px;
@@ -203,7 +207,8 @@
 /* Prime Separator */
 .prime-separator {
   position: absolute;
-  left: 72px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 345px;
   width: 216px;
   height: 12px;
@@ -212,7 +217,8 @@
 /* Refund Message */
 .refund-message {
   position: absolute;
-  left: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 381px;
   width: 284px;
   text-align: center;
@@ -225,7 +231,8 @@
 /* Select Plan Section */
 .select-plan-section {
   position: absolute;
-  left: 32px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 507px;
   width: 296px;
   padding-bottom: 20px;
@@ -582,10 +589,11 @@
 .how-it-works-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 32px;
   position: absolute;
-  left: 32px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 1222px;
   width: 296px;
 }
@@ -640,7 +648,8 @@
   width: 296px;
   height: 135px;
   position: absolute;
-  left: 32px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 1507px;
 }
 
@@ -648,7 +657,8 @@
   width: 42px;
   height: 42px;
   position: absolute;
-  left: 127px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 0;
 }
 
@@ -680,14 +690,16 @@
   line-height: 130%;
   letter-spacing: -0.032px;
   position: absolute;
-  left: 93px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 55px;
   width: 110px;
 }
 
 .arrow-decoration {
   position: absolute;
-  left: 196px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 62px;
 }
 
@@ -717,7 +729,8 @@
   width: 360px;
   height: 295px;
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   top: 1747px;
 }
 
@@ -812,7 +825,8 @@
   align-items: center;
   gap: 4px;
   position: absolute;
-  left: 122px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 255px;
   background: transparent;
   border: none;
