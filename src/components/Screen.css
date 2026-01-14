@@ -286,7 +286,7 @@
   width: 278px;
   height: 49px;
   position: relative;
-  margin: 0 auto 36px;
+  margin: 0 auto -2px;
   border-radius: 32px;
   border: 0.5px solid #FFD66B;
   background: rgba(0, 37, 63, 0.80);
