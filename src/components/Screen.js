@@ -144,10 +144,10 @@ const Screen = () => {
       {/* Refund Message */}
       <div className="refund-message-container">
         <div className="refund-message-bg"></div>
-      <div className="refund-message">
-        <span className="text-white">Get a </span>
-        <span className="text-yellow">full refund</span>
-          <span className="text-white"> when you </span>
+        <div className="refund-message">
+          <span className="text-white">Get a </span>
+          <span className="text-yellow">full refund</span>
+          <span className="text-white"> when you</span><br/>
           <span className="text-yellow underline">cancel a ride</span>
         </div>
       </div>
