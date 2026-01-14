@@ -550,15 +550,46 @@
 .plans-container::before {
   content: '';
   position: absolute;
-  left: 0;
-  top: 25px;
-  width: 324px;
-  height: 496px;
+  left: 0px;
+  top: -20px;
+  width: 318px;
+  height: 520px;
   border-radius: 12px;
   border: 1px solid #FFD66B;
   background: #FBFBFB;
   box-shadow: 0 2px 4px 0 rgba(0, 37, 63, 0.08);
-  z-index: 0;
+  z-index: -1;
+}
+
+/* Toggle Button */
+.toggle-plan-btn {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  background: #FFD66B;
+  border: 2px solid #001726;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  box-shadow: -2px 2px 8px rgba(0, 37, 63, 0.3);
+  transition: all 0.3s ease;
+}
+
+.toggle-plan-btn:hover {
+  background: #FFB800;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.toggle-plan-btn svg {
+  width: 24px;
+  height: 24px;
+  color: #001726;
 }
 
 /* Free Rescheduling Badge */
