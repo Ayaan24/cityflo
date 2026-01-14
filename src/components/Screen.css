@@ -53,11 +53,11 @@
 
 .bg-image {
   position: absolute;
-  left: -96px;
-  top: -33px;
-  width: 504px;
-  height: 325px;
-  opacity: 0.2;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 295px;
+  opacity: 0.9;
 }
 
 .bg-blur {
@@ -88,7 +88,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 440px;
-  height: 292px;
+  height:1000px;
   background: linear-gradient(0deg, #001726 13.91%, rgba(0, 23, 38, 0.00) 100%);
   pointer-events: none;
 }
@@ -102,7 +102,7 @@
   height: 24px;
   background: transparent;
   border: none;
-  color: #FFD66B;
+  color: #ffd66b;
   cursor: pointer;
   z-index: 10;
   display: flex;

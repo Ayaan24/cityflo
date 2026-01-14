@@ -10,7 +10,7 @@ const Screen = () => {
     <div className="flexi-pass-new">
       {/* Status Bar */}
       <div className="status-bar">
-        <span className="time">9:30</span>
+        <span className="time"></span>
         <div className="status-icons">
           <div className="signal-icon"></div>
           <div className="battery-icon"></div>

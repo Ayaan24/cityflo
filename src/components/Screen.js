@@ -8,20 +8,12 @@ const Screen = () => {
 
   return (
     <div className="flexi-pass-new">
-      {/* Status Bar */}
-      <div className="status-bar">
-        <span className="time">9:30</span>
-        <div className="status-icons">
-          <div className="signal-icon"></div>
-          <div className="battery-icon"></div>
-        </div>
-      </div>
-
+    
       {/* Background decorative elements */}
       <div className="bg-decorations">
         <div className="bg-blur purple"></div>
         <div className="bg-blur yellow"></div>
-        <img src="https://api.builder.io/api/v1/image/assets/TEMP/b72dd800d289cb5b79933e9cf0ba8f09e198a231?width=1008" alt="" className="bg-image" />
+        <img src="./heroimage.png" alt="" className="bg-image" />
       </div>
 
       <div className="gradient-overlay"></div>
