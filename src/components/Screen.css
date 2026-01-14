@@ -268,7 +268,7 @@
 }
 
 .section-title-wrapper {
-  margin-bottom: 38px;
+  margin-bottom: -12px;
 }
 
 .consecutive-weekdays {
@@ -677,7 +677,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 1507px;
+  top: 1554px;
 }
 
 .bulb-icon-wrapper {
@@ -725,7 +725,7 @@
 
 .arrow-decoration {
   position: absolute;
-  left: 50%;
+  left: 71%;
   transform: translateX(-50%);
   top: 62px;
 }

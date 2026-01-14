@@ -399,7 +399,7 @@ const Screen = () => {
                 </defs>
               </svg>
             </div>
-            <p className="benefit-text">For refundable passes: If you don't travel on a particular day, cancel up to 30 min before scheduled departure, and get a full refund in your <span className="text-yellow">Cityflo wallet</span></p>
+            <p className="benefit-text">For refundable passes: If you don't travel on a particular day, cancel up to 30 min before scheduled departure, and get a full refund in your Cityflo wallet</p>
           </div>
         </div>
       </div>
